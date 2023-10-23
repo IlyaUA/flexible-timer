@@ -9,21 +9,48 @@
 /* Begin PBXBuildFile section */
 		090BDD592AE448FD00838E4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090BDD582AE448FD00838E4E /* AppDelegate.swift */; };
 		090BDD5B2AE448FD00838E4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090BDD5A2AE448FD00838E4E /* SceneDelegate.swift */; };
-		090BDD5D2AE448FD00838E4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090BDD5C2AE448FD00838E4E /* ViewController.swift */; };
 		090BDD602AE448FD00838E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090BDD5E2AE448FD00838E4E /* Main.storyboard */; };
 		090BDD622AE448FE00838E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090BDD612AE448FE00838E4E /* Assets.xcassets */; };
 		090BDD652AE448FE00838E4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090BDD632AE448FE00838E4E /* LaunchScreen.storyboard */; };
+		090BDD6F2AE44EF800838E4E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 090BDD6E2AE44EF800838E4E /* Lottie */; };
+		090BDD742AE4503500838E4E /* DancingBear.json in Resources */ = {isa = PBXBuildFile; fileRef = 090BDD712AE4503500838E4E /* DancingBear.json */; };
+		090BDD752AE4503500838E4E /* Pumpkin.json in Resources */ = {isa = PBXBuildFile; fileRef = 090BDD722AE4503500838E4E /* Pumpkin.json */; };
+		090BDD762AE4503500838E4E /* HalloweenJuice.json in Resources */ = {isa = PBXBuildFile; fileRef = 090BDD732AE4503500838E4E /* HalloweenJuice.json */; };
+		090BDD7D2AE451CE00838E4E /* DancingBearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090BDD7B2AE451CE00838E4E /* DancingBearViewController.swift */; };
+		090BDD812AE451DD00838E4E /* HalloweenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090BDD7F2AE451DD00838E4E /* HalloweenViewController.swift */; };
+		090BDD852AE451EE00838E4E /* PumpkinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090BDD832AE451EE00838E4E /* PumpkinViewController.swift */; };
+		090BDD882AE4539700838E4E /* DancingBear.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090BDD872AE4539700838E4E /* DancingBear.storyboard */; };
+		090BDD8A2AE453A300838E4E /* Halloween.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090BDD892AE453A300838E4E /* Halloween.storyboard */; };
+		090BDD8C2AE453B000838E4E /* Pumpkin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090BDD8B2AE453B000838E4E /* Pumpkin.storyboard */; };
+		090BDD8F2AE455F500838E4E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090BDD8E2AE455F500838E4E /* Constants.swift */; };
+		090BDD922AE4576700838E4E /* UIViewController+Lottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090BDD912AE4576700838E4E /* UIViewController+Lottie.swift */; };
+		09BC7C032AE45E8500B74709 /* FlexibleTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BC7C022AE45E8500B74709 /* FlexibleTimer.swift */; };
+		09BC7C052AE45EBC00B74709 /* FlexibleTimer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09BC7C042AE45EBC00B74709 /* FlexibleTimer.xib */; };
+		09BC7C072AE71FE800B74709 /* TimerToFrontProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BC7C062AE71FE800B74709 /* TimerToFrontProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		090BDD552AE448FD00838E4E /* FlexibleTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexibleTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		090BDD582AE448FD00838E4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		090BDD5A2AE448FD00838E4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		090BDD5C2AE448FD00838E4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		090BDD5F2AE448FD00838E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		090BDD612AE448FE00838E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		090BDD642AE448FE00838E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		090BDD662AE448FE00838E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090BDD712AE4503500838E4E /* DancingBear.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DancingBear.json; sourceTree = "<group>"; };
+		090BDD722AE4503500838E4E /* Pumpkin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Pumpkin.json; sourceTree = "<group>"; };
+		090BDD732AE4503500838E4E /* HalloweenJuice.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HalloweenJuice.json; sourceTree = "<group>"; };
+		090BDD7B2AE451CE00838E4E /* DancingBearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DancingBearViewController.swift; sourceTree = "<group>"; };
+		090BDD7F2AE451DD00838E4E /* HalloweenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloweenViewController.swift; sourceTree = "<group>"; };
+		090BDD832AE451EE00838E4E /* PumpkinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PumpkinViewController.swift; sourceTree = "<group>"; };
+		090BDD872AE4539700838E4E /* DancingBear.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DancingBear.storyboard; sourceTree = "<group>"; };
+		090BDD892AE453A300838E4E /* Halloween.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Halloween.storyboard; sourceTree = "<group>"; };
+		090BDD8B2AE453B000838E4E /* Pumpkin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pumpkin.storyboard; sourceTree = "<group>"; };
+		090BDD8E2AE455F500838E4E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		090BDD912AE4576700838E4E /* UIViewController+Lottie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Lottie.swift"; sourceTree = "<group>"; };
+		09BC7C022AE45E8500B74709 /* FlexibleTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleTimer.swift; sourceTree = "<group>"; };
+		09BC7C042AE45EBC00B74709 /* FlexibleTimer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlexibleTimer.xib; sourceTree = "<group>"; };
+		09BC7C062AE71FE800B74709 /* TimerToFrontProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerToFrontProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090BDD6F2AE44EF800838E4E /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +84,12 @@
 		090BDD572AE448FD00838E4E /* FlexibleTimer */ = {
 			isa = PBXGroup;
 			children = (
+				09BC7C002AE45E4E00B74709 /* Views */,
+				090BDD902AE4575100838E4E /* Extensions */,
+				090BDD8D2AE455EB00838E4E /* Helpers */,
+				090BDD772AE4517F00838E4E /* Scenes */,
+				090BDD702AE4501B00838E4E /* LottieAnimations */,
 				090BDD6C2AE449B300838E4E /* SupportFiles */,
-				090BDD5C2AE448FD00838E4E /* ViewController.swift */,
-				090BDD5E2AE448FD00838E4E /* Main.storyboard */,
 			);
 			path = FlexibleTimer;
 			sourceTree = "<group>";
@@ -66,6 +97,7 @@
 		090BDD6C2AE449B300838E4E /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
+				090BDD5E2AE448FD00838E4E /* Main.storyboard */,
 				090BDD662AE448FE00838E4E /* Info.plist */,
 				090BDD612AE448FE00838E4E /* Assets.xcassets */,
 				090BDD632AE448FE00838E4E /* LaunchScreen.storyboard */,
@@ -73,6 +105,87 @@
 				090BDD5A2AE448FD00838E4E /* SceneDelegate.swift */,
 			);
 			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		090BDD702AE4501B00838E4E /* LottieAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				090BDD712AE4503500838E4E /* DancingBear.json */,
+				090BDD732AE4503500838E4E /* HalloweenJuice.json */,
+				090BDD722AE4503500838E4E /* Pumpkin.json */,
+			);
+			path = LottieAnimations;
+			sourceTree = "<group>";
+		};
+		090BDD772AE4517F00838E4E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				090BDD7A2AE451A900838E4E /* DancingBear */,
+				090BDD792AE451A200838E4E /* Halloween */,
+				090BDD782AE4519000838E4E /* Pumpkin */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		090BDD782AE4519000838E4E /* Pumpkin */ = {
+			isa = PBXGroup;
+			children = (
+				090BDD832AE451EE00838E4E /* PumpkinViewController.swift */,
+				090BDD8B2AE453B000838E4E /* Pumpkin.storyboard */,
+			);
+			path = Pumpkin;
+			sourceTree = "<group>";
+		};
+		090BDD792AE451A200838E4E /* Halloween */ = {
+			isa = PBXGroup;
+			children = (
+				090BDD7F2AE451DD00838E4E /* HalloweenViewController.swift */,
+				090BDD892AE453A300838E4E /* Halloween.storyboard */,
+			);
+			path = Halloween;
+			sourceTree = "<group>";
+		};
+		090BDD7A2AE451A900838E4E /* DancingBear */ = {
+			isa = PBXGroup;
+			children = (
+				090BDD7B2AE451CE00838E4E /* DancingBearViewController.swift */,
+				090BDD872AE4539700838E4E /* DancingBear.storyboard */,
+			);
+			path = DancingBear;
+			sourceTree = "<group>";
+		};
+		090BDD8D2AE455EB00838E4E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				090BDD8E2AE455F500838E4E /* Constants.swift */,
+				09BC7C062AE71FE800B74709 /* TimerToFrontProtocol.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		090BDD902AE4575100838E4E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				090BDD912AE4576700838E4E /* UIViewController+Lottie.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		09BC7C002AE45E4E00B74709 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09BC7C012AE45E6900B74709 /* FlexibleTimer */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		09BC7C012AE45E6900B74709 /* FlexibleTimer */ = {
+			isa = PBXGroup;
+			children = (
+				09BC7C022AE45E8500B74709 /* FlexibleTimer.swift */,
+				09BC7C042AE45EBC00B74709 /* FlexibleTimer.xib */,
+			);
+			path = FlexibleTimer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +204,9 @@
 			dependencies = (
 			);
 			name = FlexibleTimer;
+			packageProductDependencies = (
+				090BDD6E2AE44EF800838E4E /* Lottie */,
+			);
 			productName = FlexibleTimer;
 			productReference = 090BDD552AE448FD00838E4E /* FlexibleTimer.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +235,9 @@
 				Base,
 			);
 			mainGroup = 090BDD4C2AE448FD00838E4E;
+			packageReferences = (
+				090BDD6D2AE44EF800838E4E /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 090BDD562AE448FD00838E4E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,9 +252,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090BDD762AE4503500838E4E /* HalloweenJuice.json in Resources */,
+				090BDD882AE4539700838E4E /* DancingBear.storyboard in Resources */,
 				090BDD652AE448FE00838E4E /* LaunchScreen.storyboard in Resources */,
+				090BDD8A2AE453A300838E4E /* Halloween.storyboard in Resources */,
 				090BDD622AE448FE00838E4E /* Assets.xcassets in Resources */,
+				090BDD742AE4503500838E4E /* DancingBear.json in Resources */,
+				09BC7C052AE45EBC00B74709 /* FlexibleTimer.xib in Resources */,
+				090BDD752AE4503500838E4E /* Pumpkin.json in Resources */,
 				090BDD602AE448FD00838E4E /* Main.storyboard in Resources */,
+				090BDD8C2AE453B000838E4E /* Pumpkin.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +272,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				090BDD5D2AE448FD00838E4E /* ViewController.swift in Sources */,
+				09BC7C032AE45E8500B74709 /* FlexibleTimer.swift in Sources */,
+				090BDD922AE4576700838E4E /* UIViewController+Lottie.swift in Sources */,
 				090BDD592AE448FD00838E4E /* AppDelegate.swift in Sources */,
+				090BDD812AE451DD00838E4E /* HalloweenViewController.swift in Sources */,
+				090BDD852AE451EE00838E4E /* PumpkinViewController.swift in Sources */,
+				09BC7C072AE71FE800B74709 /* TimerToFrontProtocol.swift in Sources */,
+				090BDD8F2AE455F500838E4E /* Constants.swift in Sources */,
 				090BDD5B2AE448FD00838E4E /* SceneDelegate.swift in Sources */,
+				090BDD7D2AE451CE00838E4E /* DancingBearViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +501,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		090BDD6D2AE44EF800838E4E /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.3.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		090BDD6E2AE44EF800838E4E /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 090BDD6D2AE44EF800838E4E /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 090BDD4D2AE448FD00838E4E /* Project object */;
 }

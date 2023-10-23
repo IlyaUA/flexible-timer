@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Halloween-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="Halloween" id="Y6W-OH-hqX" customClass="HalloweenViewController" customModule="FlexibleTimer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1EX-Dy-pNB">
+                                <rect key="frame" x="121.66666666666669" y="69" width="150" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Nxa-pW-txa"/>
+                                    <constraint firstAttribute="width" constant="150" id="Svh-KW-a6G"/>
+                                </constraints>
+                                <color key="tintColor" red="0.957185328" green="0.50910478830000006" blue="0.5117997527" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Open Pumpkin"/>
+                                <connections>
+                                    <segue destination="oQA-ya-Gge" kind="show" id="Vsr-Zw-uCc"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8MR-Vl-sVe" customClass="LottieAnimationView" customModule="Lottie">
+                                <rect key="frame" x="0.0" y="112" width="393" height="657"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8MR-Vl-sVe" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="58z-5N-x9Y"/>
+                            <constraint firstItem="1EX-Dy-pNB" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="10" id="HGh-Il-18f"/>
+                            <constraint firstItem="8MR-Vl-sVe" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="eIo-ry-Gi7"/>
+                            <constraint firstItem="8MR-Vl-sVe" firstAttribute="top" secondItem="1EX-Dy-pNB" secondAttribute="bottom" constant="8" symbolic="YES" id="j16-jn-DCw"/>
+                            <constraint firstItem="1EX-Dy-pNB" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="lzr-QO-SW0"/>
+                            <constraint firstItem="8MR-Vl-sVe" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="pRq-Ea-YqM"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Halloween" image="halloween" id="0sc-En-thX"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="animationView" destination="8MR-Vl-sVe" id="mdP-JW-wLQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="-34"/>
+        </scene>
+        <!--Pumpkin-->
+        <scene sceneID="IiA-Ie-fnT">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Pumpkin" id="oQA-ya-Gge" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="qlh-Hj-jER"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wPO-9B-W7m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="943" y="-113"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="halloween" width="25" height="25"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

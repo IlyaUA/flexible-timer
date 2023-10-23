@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Dancing Bear-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="DancingBear" id="Y6W-OH-hqX" customClass="DancingBearViewController" customModule="FlexibleTimer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1hc-nf-jEG">
+                                <rect key="frame" x="121.66666666666669" y="69" width="150" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="9D4-1e-m0i"/>
+                                    <constraint firstAttribute="width" constant="150" id="kci-VB-OrW"/>
+                                </constraints>
+                                <color key="tintColor" red="0.957185328" green="0.50910478830000006" blue="0.5117997527" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Tap me"/>
+                                <connections>
+                                    <action selector="timerButtonDidTap:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="wkP-VA-DWX"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u3a-I0-fVT" customClass="LottieAnimationView" customModule="Lottie">
+                                <rect key="frame" x="0.0" y="112" width="393" height="657"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="u3a-I0-fVT" firstAttribute="top" secondItem="1hc-nf-jEG" secondAttribute="bottom" constant="8" symbolic="YES" id="758-VQ-Qfe"/>
+                            <constraint firstItem="u3a-I0-fVT" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="7ae-W1-caV"/>
+                            <constraint firstItem="1hc-nf-jEG" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="OK9-Of-QKa"/>
+                            <constraint firstItem="u3a-I0-fVT" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="cjP-GW-zOb"/>
+                            <constraint firstItem="1hc-nf-jEG" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="10" id="oIl-z6-LpN"/>
+                            <constraint firstItem="u3a-I0-fVT" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="pJP-yi-Vuz"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Dancing Bear" image="bear" id="IS6-DB-0qw"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="animationView" destination="u3a-I0-fVT" id="Im7-ue-Lhb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bear" width="25" height="25"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
